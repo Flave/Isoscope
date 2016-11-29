@@ -1,0 +1,64 @@
+.m-help {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  pointer-events: none;
+}
+
+
+.m-help__map-help,
+.m-help__ui-help {
+  position: absolute;
+  font-size: 26px;
+  color: $primary-color;
+  font-weight: 600;
+  max-width: 450px;
+  line-height: 1.3em;
+  //text-shadow: 0 0 35px #fff;
+
+  &:after {
+    content: "↓";
+    font-size: 36px;
+    position: absolute;
+    display: block;
+    bottom: -65px;
+    left: -55px;
+    transform: rotate(45deg);
+
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: -25px;
+    top: -20px;
+    right: -25px;
+    bottom: -20px;
+    background-color: #fff;
+    z-index: -1;
+    border-radius: 1px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+  }
+}
+
+.m-help__map-help {
+  top: 43%;
+  left: 50%;
+}
+
+.m-help__ui-help {
+  top: 225px;
+  left: 450px;
+  font-size: 17px;
+  width: 370px;
+
+  &:after {
+    bottom: 38%;
+    left: -71px;
+    transform: rotate(90deg);
+  }
+}

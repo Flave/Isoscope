@@ -1,0 +1,17 @@
+.m-isoline {
+  fill-opacity: .05;
+  stroke-opacity: .3;
+  stroke: #4480ef;
+  fill: #4480ef;
+
+  &.is-highlighted {
+    stroke: #fff;
+    stroke-opacity: 1;
+    stroke-width: 2;
+  }
+}
+
+.m-isoline__center {
+  font-size: 18px;
+  fill: #fff;
+}

@@ -33,8 +33,8 @@ export default function() {
     L.control.zoom({position: 'topright'}).addTo(mapComponent);
 
     L.tileLayer.provider('HERE.terrainDay', {
-        app_id: 'bVQHRXUn6uNHP3B24bdt',
-        app_code: 'mwkokcyyoCIfExsmQq0qIg'
+        app_id: 'rqXJVkByzWlBoNVOJhRV',
+        app_code: 'sThl40ccY2bSg4X1yoSWPg'
     }).addTo(mapComponent);
 
     mapComponent
